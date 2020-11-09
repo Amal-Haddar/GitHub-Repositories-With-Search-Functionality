@@ -1,0 +1,9 @@
+.roundedImage {
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+}
+
+#editButton {
+  width: 280px;
+}

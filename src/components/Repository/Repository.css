@@ -1,0 +1,9 @@
+.container {
+  padding-left: 20;
+  padding-right: 60;
+}
+
+#dateSpan {
+  color: "#586069";
+  font-size: 13;
+}
