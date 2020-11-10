@@ -1,68 +1,98 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# GitHub Repositories With Search Functionality Using GitHub GraphQL API v4
 
-## Available Scripts
+> Code documentation using Markdown.
 
-In the project directory, you can run:
+### Table of Contents
 
-### `npm start`
+- [GitHub Repositories With Search Functionality Using GitHub GraphQL API v4](#github-repositories-with-search-functionality-using-github-graphql-api-v4)
+    - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+      - [Technologies](#technologies)
+  - [Demo](#demo)
+  - [About the project](#about-the-project)
+  - [Project Setup](#project-setup)
+  - [Requirements](#requirements)
+  - [Author Info](#author-info)
+- [This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](#this-section-has-moved-here-httpsfacebookgithubiocreate-react-appdocstroubleshootingnpm-run-build-fails-to-minify)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+The task is to display user repositories and allow him to filter repositories by name using a search bar. I was ready for the challenge, and I have used the [v4 API](https://docs.github.com/en/free-pro-team@latest/graphql), which is built using GraphQL.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Technologies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React Js
+- Markdown
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screen_Shot1](https://user-images.githubusercontent.com/62140682/98705718-4aa34e80-237e-11eb-9551-b3143f6521f6.png)
+![Screen_Shot2](https://user-images.githubusercontent.com/62140682/98705788-5f7fe200-237e-11eb-8ea5-7870b1e17d2a.png)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Demo
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Here is a demo of the task
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![TASK-AmalHaddar](https://user-images.githubusercontent.com/62140682/98705171-b6d18280-237d-11eb-94a8-d347f1c527f0.gif)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## About the project
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ To get the task done more effectively, I used :
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ - [GitHub GraphQL API v4](https://developer.github.com/v4/) :  Create precise and flexible queries for the data you need to integrate with GitHub.
+ - [Apollo Client](https://www.apollographql.com/docs/react/) : State management library for JavaScript that enables you to manage both local and remote data with GraphQL. 
+ - [Ant Design](https://ant.design/docs/react/introduce) : UI design language and React UI library.
+ - [Moment](https://www.npmjs.com/package/react-moment) : A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Project Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+npm install
+npm start
+```
+---
 
-### Advanced Configuration
+## Requirements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**In order to run the project, you need to add your Github Token to the `client.js` file!**
 
-### Deployment
+![client](https://user-images.githubusercontent.com/62140682/98707117-f39e7900-237f-11eb-9128-729d61aa225d.JPG)
+![Token](https://user-images.githubusercontent.com/62140682/98706905-b3d79180-237f-11eb-81e3-0ed9c1a8aaf9.JPG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
 
+
+
+## Author Info
+
+- Portfolio - [Amal Haddar](https://amalhaddar.000webhostapp.com/)
+- LinkedIn - [amal-haddar](https://www.linkedin.com/in/amal-haddar/)
+- Email : haddaramal4@gmail.com
+
+---
+[Back To The Top](#table-of-contents)
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+>>>>>>> 8a953083835acaf4d39ae86aff486db3b23e56fa
