@@ -1,17 +1,11 @@
 import React from "react";
 import { Button, Divider } from "antd";
 import { StarOutlined } from "@ant-design/icons";
+import Moment from "react-moment";
 
 function RepositoriesSearched({ repo, expanded, onToggled }) {
   const {
-    node: {
-      name,
-      description,
-      createdAt,
-      url,
-      owner: { login },
-      stargazers: { totalCount: totalStarCount },
-    },
+    node: { name, description, createdAt, url },
   } = repo;
   return (
     <div
@@ -23,7 +17,7 @@ function RepositoriesSearched({ repo, expanded, onToggled }) {
         {" "}
         <StarOutlined /> star{" "}
       </Button>
-      {login}
+
       <a href={url}>
         {" "}
         <h2 style={{ color: "#0366D6" }}> {name}</h2>
@@ -38,7 +32,7 @@ function RepositoriesSearched({ repo, expanded, onToggled }) {
         <br />
       </div>
       <span id="dateSpan" style={{ color: "#586069", fontSize: 13 }}>
-        {createdAt}
+        Updated <Moment fromNow>{createdAt}</Moment>
       </span>
       <Divider />
     </div>

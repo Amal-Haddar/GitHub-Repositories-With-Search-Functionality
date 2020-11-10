@@ -1,20 +1,10 @@
 import React from "react";
 import "./LeftSidebar.css";
+import { GET_VIEWER } from "../Queries";
 
 import { Button } from "antd";
 
 import { Query } from "react-apollo";
-import { gql } from "apollo-boost";
-
-const GET_VIEWER = gql`
-  query {
-    viewer {
-      avatarUrl
-      login
-      bio
-    }
-  }
-`;
 
 function LeftSidebar() {
   return (
