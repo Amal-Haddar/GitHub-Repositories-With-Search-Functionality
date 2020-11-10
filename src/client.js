@@ -1,6 +1,9 @@
+//Apollo client configuration
 import ApolloClient from "apollo-boost";
 
-const accessToken = "f299fe63cdf9dc5b7c87df41c99d7090f30336a1";
+//Replace the access token with yours
+const accessToken = "b95ad4575a09362678c5aa5e66ea63570e0f5ea4";
+
 const client = new ApolloClient({
   uri: "https://api.github.com/graphql",
   headers: {
